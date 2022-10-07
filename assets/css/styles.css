@@ -67,7 +67,67 @@ img.portrait-img {
 }
 
 /* --------------------------------------Projects Section */
-#projects {
+section#projects-section{
     background-color: cornflowerblue;
 }
+
+h2.projects-heading,
+h3.milestone-heading,
+p.milestone-info,
+h3.hackathon-heading,
+p.hackathon-info {
+    text-align: center;
+    padding: 10px;
+}
+
+h2.projects-heading,
+h3.hackathon-heading { /*not working*/
+    padding-top: 40px;
+}
+
+/* h3.hackathon-heading {
+    color: brown;
+    padding-top: 100px;
+} */
+
+div.milestone-project,
+div.hackathon-project {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    float: inline-start;
+    clear: right;
+}
+
+div.milestone-project {
+    height: 400px;
+    width: 50%;
+    padding: 50px;
     
+}
+
+div.hackathon-project {
+    height: 300px;
+    width: 20%;
+    padding: 40px 5px 90px;
+}
+    
+.milestone-project img,
+.hackathon-project img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.milestone-project p,
+.hackathon-project p {
+    text-align: center;
+}
+
+.milestone-project a,
+.hackathon-project a {
+    color: black;
+    text-decoration: none;
+}
+
