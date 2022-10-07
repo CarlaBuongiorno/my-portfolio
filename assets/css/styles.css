@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:lightcyan;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    padding: 50px 100px;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+/* --------------------------------------Introduction Section */
+section#about {
+    height: 500px;
+    position: relative;
+}
+
+div.intro {
+    display:inline-block;
+    margin: auto;
+    width: 60%;
+    padding: 100px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+}
+
+div.intro h1 {
+    margin: 0 100px;
+}
+
+div.intro p {
+    margin: 30px 300px 0 100px;
+}
+
+div.img-container {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+
+img.portrait-img {
+    height: 100%;
+    width: 50%;
+    margin-right: 200px;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+/* --------------------------------------Projects Section */
+#projects {
+    background-color: cornflowerblue;
+}
+    
