@@ -75,13 +75,15 @@ h2.projects-heading,
 h3.milestone-heading,
 p.milestone-info,
 h3.hackathon-heading,
-p.hackathon-info {
+p.hackathon-info,
+h2.skills-heading {
     text-align: center;
     padding: 10px;
 }
 
 h2.projects-heading,
-h3.hackathon-heading { /*not working*/
+h3.hackathon-heading, /*not working*/
+h2.skills-heading {
     padding-top: 40px;
 }
 
@@ -113,7 +115,8 @@ div.hackathon-project {
 }
     
 .milestone-project img,
-.hackathon-project img {
+.hackathon-project img,
+.skills-logo {
     height: 100%;
     width: 100%;
     object-fit: contain;
@@ -131,3 +134,17 @@ div.hackathon-project {
     text-decoration: none;
 }
 
+/* --------------------------------------Technical Skills */
+.skills-logo-wrapper {
+    height: 100px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    float: inline-start;
+    clear: right;
+}
+
+.skills-logo {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
