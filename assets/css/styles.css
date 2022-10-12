@@ -76,14 +76,22 @@ h3.milestone-heading,
 p.milestone-info,
 h3.hackathon-heading,
 p.hackathon-info,
-h2.skills-heading {
+h2.skills-heading,
+h2.certificates-heading,
+h4.institutes-heading,
+h4.linkedin-heading,
+h5 {
     text-align: center;
     padding: 10px;
 }
 
 h2.projects-heading,
 h3.hackathon-heading, /*not working*/
-h2.skills-heading {
+h2.skills-heading,
+h2.certificates-heading,
+h4.institutes-heading,
+h4.linkedin-heading {
+    padding-top: 40px;
     padding-top: 40px;
 }
 
@@ -147,4 +155,90 @@ div.hackathon-project {
 .skills-logo {
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+/* --------------------------------------Certificates & Badges */
+#education {
+    background-color: cornflowerblue;
+}
+
+/* --------------------------------Institutes */
+.institutes {
+    width: 100%;
+    display: flex;
+    align-items:center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.code-institute-frame {
+    height: 550px;
+    width: 23%;
+    border: 20px solid black;
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.python-institute-frame {
+    height: 410px;
+    width: 30%;
+    border: 20px solid black;
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.institute-certificate {
+    height: 85%;
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+    position: relative;
+    margin: auto 0;
+}
+
+/* --------------------------------LinkedIn */
+div.linkedin {
+    width: 100%;
+    display: flex;
+    align-items:center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.linkedin-row {
+    height: 360px;
+    width: 25%;
+    justify-content: center;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.linkedin-frame {
+    height: 350px;
+    width: 95%;
+    border: 20px solid black;
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.linkedin-certificate {
+    height: 85%;
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+    position: relative;
+    margin: auto 0;
 }
