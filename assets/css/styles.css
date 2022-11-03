@@ -80,7 +80,9 @@ h2.skills-heading,
 h2.certificates-heading,
 h4.institutes-heading,
 h4.linkedin-heading,
-h5 {
+h5,
+h2.badges-heading,
+h3.get-in-touch-heading {
     text-align: center;
     padding: 10px;
 }
@@ -90,7 +92,8 @@ h3.hackathon-heading, /*not working*/
 h2.skills-heading,
 h2.certificates-heading,
 h4.institutes-heading,
-h4.linkedin-heading {
+h4.linkedin-heading,
+h3.get-in-touch-heading {
     padding-top: 40px;
     padding-top: 40px;
 }
@@ -157,7 +160,7 @@ div.hackathon-project {
     padding-bottom: 15px;
 }
 
-/* --------------------------------------Certificates & Badges */
+/* --------------------------------------Certificates */
 #education {
     background-color: cornflowerblue;
 }
@@ -241,4 +244,59 @@ div.linkedin {
     overflow: hidden;
     position: relative;
     margin: auto 0;
+}
+
+/* --------------------------------------Badges */
+.pcep-badge-wrapper {
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.hackathon-badge-wrapper {
+    height: 420px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.badge-wrapper {
+    height: 350px;
+    width: 19.77%;
+    display: inline-block;
+    padding: 0;
+}
+
+.badge-img {
+    height: 100%;
+    width: 100%;
+}
+
+.badge-title {
+    /* padding-right: 0; */
+}
+
+/* --------------------------------------Get In Touch */
+.social {
+    display: block;
+}
+
+/* .skills-logo-wrapper {
+    height: 100px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    float: inline-start;
+    clear: right;
+}
+
+.skills-logo {
+    padding-top: 15px;
+    padding-bottom: 15px;
+} */
+
+
+.copyright {
+    display: block;
 }
