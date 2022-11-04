@@ -278,8 +278,26 @@ div.linkedin {
 }
 
 /* --------------------------------------Get In Touch */
+#footer {
+    background-color: cornflowerblue;
+}
+
+.wrapper {
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.get-in-touch {
+    height: 400px;
+    display: inline-block;
+    width: 50%;
+}
+
 .social {
-    display: block;
+    height: 400px;
+    width: 50%;
+    float: right;
 }
 
 /* .skills-logo-wrapper {
