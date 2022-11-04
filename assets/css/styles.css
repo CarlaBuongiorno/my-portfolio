@@ -81,8 +81,7 @@ h2.certificates-heading,
 h4.institutes-heading,
 h4.linkedin-heading,
 h5,
-h2.badges-heading,
-h3.get-in-touch-heading {
+h2.badges-heading {
     text-align: center;
     padding: 10px;
 }
@@ -273,48 +272,50 @@ div.linkedin {
     width: 100%;
 }
 
-.badge-title {
-    /* padding-right: 0; */
-}
-
 /* --------------------------------------Get In Touch */
 #footer {
     background-color: cornflowerblue;
 }
 
 .wrapper {
-    height: 400px;
+    height: 200px;
     width: 100%;
     position: relative;
 }
 
 .get-in-touch {
-    height: 400px;
+    height: 200px;
     display: inline-block;
     width: 50%;
 }
 
 .social {
-    height: 400px;
+    height: 200px;
     width: 50%;
     float: right;
 }
 
-/* .skills-logo-wrapper {
-    height: 100px;
-    width: 10%;
-    display: flex;
-    justify-content: center;
-    float: inline-start;
-    clear: right;
+.get-in-touch-text {
+    margin: 50px 100px;
+    width: 60%;
 }
 
-.skills-logo {
-    padding-top: 15px;
-    padding-bottom: 15px;
-} */
+h3.get-in-touch-heading {
+    padding: 10px 0;
+}
 
+.social-wrapper {
+    height: 100px;
+    width: 100%;
+    margin: 50px 50px 10px;
+}
+
+.email {
+    margin-left: 50px;
+}
 
 .copyright {
     display: block;
+    text-align: center;
+    padding: 5px 0 15px;
 }
